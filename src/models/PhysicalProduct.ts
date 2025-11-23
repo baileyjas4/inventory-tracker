@@ -1,4 +1,4 @@
-import { Product } from "./Product.ts"
+import { Product } from "./Product.js"
 
 export class physicalProduct extends Product {
     constructor (

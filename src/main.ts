@@ -1,7 +1,7 @@
-import { DigitalProduct } from "./models/DigitalProduct.ts";
-import { physicalProduct } from "./models/PhysicalProduct.ts";
-import { Product } from "./models/Product.ts";
-import { calculateTax } from "./utils/taxCalculator.ts";
+import { DigitalProduct } from "./models/DigitalProduct.js";
+import { physicalProduct } from "./models/PhysicalProduct.js";
+import { Product } from "./models/Product.js";
+import { calculateTax } from "./utils/taxCalculator.js";
 
 
 const inventory: Product[] = [
